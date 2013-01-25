@@ -1,0 +1,21 @@
+{
+  "name": "Temperatur.nu",
+  "options_page": "options.html",
+  
+  
+  "version": "1.0",
+  "background": { "scripts": ["js/jquery-1.7.min.js","js/background.js"] },
+  "content_security_policy": "script-src 'self' https://maps.googleapis.com https://maps.gstatic.com; img-src http://www2.timg.nu 'self'; object-src 'self'",
+
+  
+  
+  "permissions": [
+    "tabs", "http://*/*", "geolocation", "maps"
+  ],
+  "browser_action": {
+      "name": "Show the temperatur of the nearest location",
+      "default_icon": "images/icon19.png",
+      "default_popup": "popup.html"
+  },
+  "manifest_version": 2
+}
