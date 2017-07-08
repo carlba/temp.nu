@@ -15,7 +15,7 @@ input {
 div label {
    /*border:1px solid red;*/
    display:block;
-   width:25%;    /*Or however much space you need for the form’s labels*/
+   width:25%;    /*Or however much space you need for the formâ€™s labels*/
    float:left;
    text-align:right;
    margin-right:2em;
@@ -54,7 +54,7 @@ div label {
 
 .div-container {   
    display:block;
-   width:20%;
+   width:40%;
    vertical-align:center;
    margin-left:auto;
    margin-right:auto;
